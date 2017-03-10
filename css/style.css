@@ -1,0 +1,362 @@
+/*body {
+  margin:0;
+  padding:0;
+}*/
+
+div {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tag:before{
+content: '<'
+}
+.tag:after{
+content: '>'
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;
+margin: 15px;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {
+width: 100%;
+text-align: center;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+nav {
+  height:70px;
+  /*background-color: #525C65;*/
+  /*border-bottom: 2px solid #EE6363;*/
+}
+
+ul {
+  list-style-type: none;
+  /*position: fixed;*/
+  float: right;
+}
+
+
+li {
+  padding-right: 20px;
+  display: inline;
+  line-height: 65px;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.nameLogo {
+  font-size: 10px;
+  float: left;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+
+a.navHover:hover {
+    font-size: 30px;
+}
+
+.navHover {
+  color: #FF5A5F;
+}
+
+h1 {
+  font-size: 48px;
+  width: 50%;
+  color: white;
+  /*font-size: 10vh; this can help with sizing */
+}
+
+.kiwayneImageJapan {
+  position: relative;
+  min-height: 100%;
+  background-image: url('../images/japankiwayne.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: 0 -150px;*/
+  /*opacity: 0.80;*/
+  overflow: hidden;
+}
+
+/*overflow hidden was a better fix here- due to parent! */
+
+.heroLeft {
+  width: 45%;
+  float: left;
+  padding-right:
+}
+
+
+
+.freemanImageStudio2 {
+  position: relative;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.80;
+}
+
+.kiwayneProjects {
+  position: relative;
+  /*min-height: 500px;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+
+.projectImage1 {
+  background-image: url('../images/festiivo.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.projectImage1:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage1 p {
+  display:none;
+}
+
+.projectImage1:hover p {
+  display:block;
+  position: absolute;
+  color: white;
+  bottom: -230px;
+  left: 8%;
+  font-size: 50px;
+  color: red;
+  /*code below can fix zoom in issues- allows text to centre*/
+/* bottom: -860px; */
+/* left: 18%; */
+/*font-size: 50px;*/
+/* margin: 0 auto; */
+/*display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;*/
+}
+
+.projectImage2 {
+  background-image: url('../images/elfy.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.projectImage2:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage2 p {
+  display:none;
+}
+
+.projectImage2:hover p {
+  display:block;
+  position: absolute;
+  color: red;
+  bottom: -240px;
+  right: 12%;
+  font-size: 50px;
+}
+
+.projectImage3 {
+  background-image: url('../images/adventureTime.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  margin-bottom: 20px;
+
+}
+
+.projectImage3:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage3 p {
+  display:none;
+}
+
+.projectImage3:hover p {
+  display:block;
+  /*position: absolute;*/
+  color: yellow;
+   /*bottom: -860px;*/
+   left: 18%;
+   top: 30%;
+  font-size: 70px;
+   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.projectImage4 {
+  background-image: url('../images/londonsBurning2.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+
+.projectImage4:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage4 p {
+  display:none;
+}
+
+.projectImage4:hover p {
+  display:block;
+  /*position: absolute;*/
+  /*color: yellow;*/
+  bottom: -810px;
+  right: 10%;
+  font-size: 50px;
+  /*z-index: 10;*/
+  color: red;
+bottom: -860px;*/
+left: 18%;
+font-size: 70px;
+margin: 0 auto;
+display: flex;
+text-align: center;
+}
+
+
+.projectImage5 {
+  background-image: url('../images/marcFreemanWebsite.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.projectImage5:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage5 p {
+  display:none;
+}
+
+.projectImage5:hover p {
+  display:block;
+  position: absolute;
+  color: red;
+  bottom: -230px;
+  left: 42%;
+  font-size: 50px;
+  z-index: 10;
+}
+
+
+.kiwayneBio, .kiwayneBio2, .kiwayneBio3  {
+  height: auto;
+  /*background-color: #525C65;*/
+  color: black;
+  text-align: center;
+  /*padding: 15px 80px;*/
+  font-family: 'Fjalla One', sans-serif;
+  /*border-top: 2px solid #EE6363;
+  border-bottom: 2px solid #EE6363;*/
+  font-size: 20px;
+}
+
+.kiwayneBio4 {
+  height: auto;
+  background-color: #525C65;
+  color: white;
+  text-align: center;
+  padding: 15px 80px;
+  font-family: 'Boogaloo', cursive;
+  border-top: 2px solid #EE6363;
+  border-bottom: 2px solid #EE6363;
+  font-size: 20px;
+}
+
+.containerOne {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 18px;
+  left:500px;
+  top: 30%;
+  width: 300px;
+  height: 100px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.logo {
+position: absolute;
+top: 1%;
+height: 60px;
+}
+
+.footer {
+  background-color: black;
+  height: 400px;
+  color: white;
+}
+
+
+img:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}

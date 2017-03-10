@@ -1,9 +1,0 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-
-check out my [Github](http://github.com/kiwayne-campbell) or send me an
-[email](mailto:kiwayne.campbell@gmail.com).
